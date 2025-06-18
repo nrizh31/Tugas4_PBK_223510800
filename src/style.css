@@ -7,16 +7,14 @@
 
 /* Body styling */
 body {
-  background-image: url(https://png.pngtree.com/background/20230527/original/pngtree-in-the-style-of-photography-installations-picture-image_2758953.jpg);
-  background-size: cover; /* Menetapkan ukuran gambar latar belakang */
-  background-position: center; /* Menetapkan posisi gambar latar belakang ke tengah */
-  background-repeat: no-repeat; /* Mencegah pengulangan gambar latar belakang */
+  background-color: black; /* Mengubah latar belakang menjadi hitam */
   display: flex;
   justify-content: center; /* Menempatkan konten di tengah secara horizontal */
   align-items: center; /* Menempatkan konten di tengah secara vertikal */
   min-width: 1000px;
   min-height: 100vh;
 }
+
 
 /* Links */
 a {

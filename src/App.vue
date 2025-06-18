@@ -1,15 +1,14 @@
 <template>
   <div>
-    <h1 class="welcome-heading">Selamat Datang di Toko Laptop NaufalRizh</h1>
-    <DaftarLaptop />
+    <PhoneList />
   </div>
 </template>
 
 <script>
-import DaftarLaptop from './components/DaftarLaptop.vue';
+import PhoneList from './components/PhoneList.vue';
 
 export default {
-  components: { DaftarLaptop }
+  components: { PhoneList }
 }
 </script>
 
